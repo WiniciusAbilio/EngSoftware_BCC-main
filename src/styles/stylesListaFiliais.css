@@ -1,0 +1,22 @@
+.container-adm {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .side-container {
+    padding-top: 30px;
+ }
+ 
+ .side-row {
+    padding: 30px;
+ }
+ 
+ .react-bootstrap-table thead { 
+     position: sticky; 
+     top: 0; 
+     background-color: hsla(103, 95%, 47%, 0.733); 
+     z-index: 1021; 
+     color: rgb(7, 7, 7); 
+ }

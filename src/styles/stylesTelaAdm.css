@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c8e6c9; /* verde clarinho */
+  }
+  
+  .container-adm {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrap-adm {
+    text-align: center;
+  }
+  
+  .container-logon-form-btn {
+    margin-top: 20px;
+  }
+  
+  .logon-form-btn {
+    width: 100%;
+    display: block;
+    background: #4CAF50;
+    border: none;
+    color: #ffffff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .logon-form-btn:hover {
+    background: #45a049;
+  }
+  
+  /* Estilizando links */
+  .container-login-form-btn a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .container-logon-form-btn a:hover {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  

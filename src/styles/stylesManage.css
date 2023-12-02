@@ -1,0 +1,58 @@
+.container-fluid {
+    background-color: #f0f8ff; /* Cor de fundo branca */
+  }
+  
+  .side-row {
+    padding: 20px;
+  }
+  
+  .react-bootstrap-table {
+    width:  100%;
+    margin-top: 20px;
+    border: 1px solid #008000; /* Cor da borda verde */
+    border-radius: 8px;
+  }
+  
+  .react-bootstrap-table th,
+  .react-bootstrap-table td {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .react-bootstrap-table thead {
+    background-color: #008000; /* Cor de fundo verde para cabeçalho */
+    color: #ffffff; /* Cor do texto branco para cabeçalho */
+  }
+  
+  .react-bootstrap-table tbody tr:nth-child(even) {
+    background-color: #f5f5f5; /* Cor de fundo cinza claro para linhas pares */
+  }
+  
+  .react-bootstrap-table tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* Cor de fundo branco para linhas ímpares */
+  }
+  
+  .react-bootstrap-table tbody tr:hover {
+    background-color: #d3ffd3; /* Cor de fundo verde claro ao passar o mouse */
+  }
+  
+  .react-bootstrap-table button {
+    background-color: #008000; /* Cor de fundo verde para botões */
+    color: #ffffff; /* Cor do texto branco para botões */
+    border: none;
+    padding: 8px;
+    margin: 2px;
+    border-radius: 4px;
+  }
+  
+  .react-bootstrap-table button:hover {
+    background-color: #005700; /* Cor de fundo verde escuro ao passar o mouse nos botões */
+  }
+  
+  .react-bootstrap-table button:active {
+    background-color: #003d00; /* Cor de fundo verde mais escuro ao clicar nos botões */
+  }
+  
+  .react-bootstrap-table button span {
+    margin-right: 5px;
+  }

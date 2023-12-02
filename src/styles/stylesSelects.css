@@ -1,0 +1,13 @@
+/* styles.css */
+.custom-select {
+    display: block;
+    width: 100%;
+    padding: 0.585rem;
+    border: 1px solid #d1d5db; /* Cor da borda */
+    border-radius: 0.25rem;
+    outline: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #4b5563; /* Cor do texto */
+  }
+  
