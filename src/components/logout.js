@@ -18,7 +18,7 @@ function Logout() {
     <div className='container-login-form-btn'>
       {/* Use onClick para chamar a função handleLogout quando o botão for clicado */}
       <button className='logon-form-btn' onClick={handleLogout}>
-        LOG OUT
+        LOGOUT
       </button>
     </div>
   );

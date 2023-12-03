@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles.css';
 import EstadosCidades from '../components/estadosCidades';
+import BotaoVoltar from '../components/botaoVoltar';
 
 function CadastroFilial() {
   // Função que será passada para o componente EstadosCidades
@@ -28,6 +29,7 @@ function CadastroFilial() {
               <button className='logon-form-btn' type='submit'>
                 CADASTRAR
               </button>
+              <BotaoVoltar/>
             </div>
           </form>
         </div>

@@ -49,6 +49,14 @@ function TelaAdm() {
             </Link>
           </div>
 
+          <div className='container-login-form-btn'>
+            <Link to='/manageSilo'>
+              <button className='logon-form-btn'>
+                GERENCIAR SILOS
+              </button>
+            </Link>
+          </div>
+
           <Logout/>
        
         </div>

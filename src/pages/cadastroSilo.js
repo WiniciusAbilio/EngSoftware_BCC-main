@@ -3,6 +3,7 @@ import axios from 'axios';
 import '../styles.css';
 import SelectFiliais from '../components/selectFiliais';
 import { TokenJWT } from '../components/utilsTokenJWT';
+import BotaoVoltar from '../components/botaoVoltar';
 
 function CadastroSilo() {
   const [nomeSilo, setNomeSilo] = React.useState('');
@@ -64,6 +65,7 @@ function CadastroSilo() {
                 CADASTRAR
               </button>
             </div>
+            <BotaoVoltar/>
           </form>
         </div>
       </div>

@@ -6,6 +6,7 @@ import { FaEdit, FaCheck, FaTimes } from 'react-icons/fa';
 import { RiDeleteBin5Line } from 'react-icons/ri';
 import { getTabela, deleteTabela, updateTabela } from "../components/manageTabela";
 import { getEstados, getCidadesPorEstado } from "../components/utilsEstadosCidades";
+import BotaoVoltar from "../components/botaoVoltar";
 
 import '../styles/stylesManage.css';
 import '../styles.css';
@@ -136,6 +137,7 @@ const ManageFilial = () => {
     <div className="container-fluid side-container">
       <div className="row side-row" >
         <p id="manage"></p>
+        <BotaoVoltar/>
         <Table striped bordered hover className="react-bootstrap-table" id="dataTable">
           <thead>
             <tr>

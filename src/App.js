@@ -8,6 +8,7 @@ import TelaAdm from './pages/telaAdm';
 import TelaAnalista from './pages/telaAnalista';
 import ManageFilial from './pages/manageFilial';
 import ManageUsuario from './pages/manageUsuario';
+import ManageSilo from './pages/manageSilo';
 
 function checkUserRole() {
   const token = localStorage.getItem('token');
@@ -49,6 +50,7 @@ function App() {
           <Route path="/cadastroFilial" element={<CadastroFilial />} />
           <Route path="/cadastroSilo" element={<CadastroSilo />} />
           <Route path="/manageFilial" element={<ManageFilial />} />
+          <Route path="/manageSilo" element={<ManageSilo />} />
           <Route path="/manageUsuario" element={<ManageUsuario />} />
         </>
       )}
